@@ -12,7 +12,7 @@ int stirstir(char* str1, char* str2)
     int index = 0;
 
     if (*str1 == '\0') {
-        cout << "ERROR: Empty big string. Exited with code 1." << endl;
+        cout << "ERROR: Empty parent string. Exited with code 1." << endl;
         exit(1);
     }
 
